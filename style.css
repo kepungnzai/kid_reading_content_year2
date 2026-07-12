@@ -1589,4 +1589,443 @@ body.theme-river .highlight-box p {
   color: var(--color-text-light);
 }
 
+/* Digital Safety Theme (Social Media - for page14) */
+body.theme-digital {
+  --color-primary: #7C3AED;       /* Violet 600 */
+  --color-primary-light: #EDE9FE; /* Soft violet tint */
+  --color-primary-dark: #6D28D9;  /* Dark violet */
+  --color-bg: #FFFFFF;            /* Pure white */
+  --color-bg-tone: #F5F3FF;       /* Very light violet */
+  --color-bg-card: #FFFFFF;       /* White cards */
+  --color-border: #DDD6FE;        /* Light violet border */
+  --color-text: #3B0764;          /* Violet 950 */
+  --color-text-light: #7C3AED;    /* Violet 600 */
+  --color-green: #10B981;         /* Emerald */
+  --color-orange: #F43F5E;        /* Rose */
+  --color-yellow: #F59E0B;        /* Amber */
+}
+
+body.theme-digital header,
+body.theme-digital footer {
+  background-color: #FFFFFF;
+  border-color: #DDD6FE;
+}
+
+body.theme-digital .article {
+  background-color: #FFFFFF;
+  border: 2px solid #DDD6FE;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-digital .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-digital .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-digital .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-digital .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-digital .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.2);
+}
+
+body.theme-digital .vocab-word {
+  text-decoration: underline dashed var(--color-primary);
+  color: var(--color-primary);
+}
+
+body.theme-digital .vocab-word:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline solid var(--color-primary);
+}
+
+body.theme-digital .quiz-answer {
+  background-color: #ECFDF5;
+  border-left-color: var(--color-green);
+  color: #065F46;
+}
+
+body.theme-digital .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #DDD6FE;
+}
+
+body.theme-digital .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-digital .highlight-box p {
+  color: var(--color-text-light);
+}
+
+/* Atlantis Theme (Lost City - for page15) */
+body.theme-atlantis {
+  --color-primary: #0D9488;       /* Teal 600 */
+  --color-primary-light: #CCFBF1; /* Soft teal tint */
+  --color-primary-dark: #0F766E;  /* Teal 700 */
+  --color-bg: #FFFFFF;            /* Pure white */
+  --color-bg-tone: #F0FDFA;       /* Very light teal */
+  --color-bg-card: #FFFFFF;       /* White cards */
+  --color-border: #5EEAD4;        /* Light teal border */
+  --color-text: #134E4A;          /* Teal 900 */
+  --color-text-light: #0D9488;    /* Teal 600 */
+  --color-green: #10B981;         /* Emerald */
+  --color-orange: #F59E0B;        /* Amber */
+  --color-yellow: #FBBF24;        /* Gold */
+}
+
+body.theme-atlantis header,
+body.theme-atlantis footer {
+  background-color: #FFFFFF;
+  border-color: #5EEAD4;
+}
+
+body.theme-atlantis .article {
+  background-color: #FFFFFF;
+  border: 2px solid #5EEAD4;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-atlantis .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-atlantis .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-atlantis .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-atlantis .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-atlantis .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2);
+}
+
+body.theme-atlantis .vocab-word {
+  text-decoration: underline dashed var(--color-primary);
+  color: var(--color-primary);
+}
+
+body.theme-atlantis .vocab-word:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline solid var(--color-primary);
+}
+
+body.theme-atlantis .quiz-answer {
+  background-color: #ECFDF5;
+  border-left-color: var(--color-green);
+  color: #065F46;
+}
+
+body.theme-atlantis .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #5EEAD4;
+}
+
+body.theme-atlantis .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-atlantis .highlight-box p {
+  color: var(--color-text-light);
+}
+
+/* Economy Theme (Economy - for page16) */
+body.theme-economy {
+  --color-primary: #2563EB;       /* Blue 600 */
+  --color-primary-light: #DBEAFE; /* Soft blue tint */
+  --color-primary-dark: #1D4ED8;  /* Dark blue */
+  --color-bg: #FFFFFF;            /* Pure white */
+  --color-bg-tone: #EFF6FF;       /* Very light blue */
+  --color-bg-card: #FFFFFF;       /* White cards */
+  --color-border: #93C5FD;        /* Light blue border */
+  --color-text: #1E3A5F;          /* Blue 900 */
+  --color-text-light: #2563EB;    /* Blue 600 */
+  --color-green: #10B981;         /* Emerald */
+  --color-orange: #F59E0B;        /* Amber */
+  --color-yellow: #FBBF24;        /* Gold */
+}
+
+body.theme-economy header,
+body.theme-economy footer {
+  background-color: #FFFFFF;
+  border-color: #93C5FD;
+}
+
+body.theme-economy .article {
+  background-color: #FFFFFF;
+  border: 2px solid #93C5FD;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-economy .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-economy .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-economy .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-economy .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-economy .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+body.theme-economy .vocab-word {
+  text-decoration: underline dashed var(--color-primary);
+  color: var(--color-primary);
+}
+
+body.theme-economy .vocab-word:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline solid var(--color-primary);
+}
+
+body.theme-economy .quiz-answer {
+  background-color: #ECFDF5;
+  border-left-color: var(--color-green);
+  color: #065F46;
+}
+
+body.theme-economy .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #93C5FD;
+}
+
+body.theme-economy .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-economy .highlight-box p {
+  color: var(--color-text-light);
+}
+
+/* Positive Theme (Power of Positivity - for page17) */
+body.theme-positive {
+  --color-primary: #D97706;       /* Amber 600 */
+  --color-primary-light: #FEF3C7; /* Soft amber tint */
+  --color-primary-dark: #B45309;  /* Dark amber */
+  --color-bg: #FFFFFF;            /* Pure white */
+  --color-bg-tone: #FFFBEB;       /* Very light amber */
+  --color-bg-card: #FFFFFF;       /* White cards */
+  --color-border: #FCD34D;        /* Light amber border */
+  --color-text: #78350F;          /* Amber 900 */
+  --color-text-light: #B45309;    /* Amber 700 */
+  --color-green: #10B981;         /* Emerald */
+  --color-orange: #F97316;        /* Orange */
+  --color-yellow: #FBBF24;        /* Gold */
+}
+
+body.theme-positive header,
+body.theme-positive footer {
+  background-color: #FFFFFF;
+  border-color: #FCD34D;
+}
+
+body.theme-positive .article {
+  background-color: #FFFFFF;
+  border: 2px solid #FCD34D;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-positive .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-positive .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-positive .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-positive .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-positive .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.2);
+}
+
+body.theme-positive .vocab-word {
+  text-decoration: underline dashed var(--color-primary);
+  color: var(--color-primary);
+}
+
+body.theme-positive .vocab-word:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline solid var(--color-primary);
+}
+
+body.theme-positive .quiz-answer {
+  background-color: #ECFDF5;
+  border-left-color: var(--color-green);
+  color: #065F46;
+}
+
+body.theme-positive .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #FCD34D;
+}
+
+body.theme-positive .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-positive .highlight-box p {
+  color: var(--color-text-light);
+}
+
+/* Motivated Theme (Staying Motivated - for page18) */
+body.theme-motivated {
+  --color-primary: #7C3AED;       /* Violet 600 */
+  --color-primary-light: #F3E8FF; /* Soft violet tint */
+  --color-primary-dark: #6D28D9;  /* Dark violet */
+  --color-bg: #FFFFFF;            /* Pure white */
+  --color-bg-tone: #FAF5FF;       /* Very light violet */
+  --color-bg-card: #FFFFFF;       /* White cards */
+  --color-border: #D8B4FE;        /* Light violet border */
+  --color-text: #4C1D95;          /* Violet 900 */
+  --color-text-light: #7C3AED;    /* Violet 600 */
+  --color-green: #10B981;         /* Emerald */
+  --color-orange: #F97316;        /* Orange */
+  --color-yellow: #FBBF24;        /* Gold */
+}
+
+body.theme-motivated header,
+body.theme-motivated footer {
+  background-color: #FFFFFF;
+  border-color: #D8B4FE;
+}
+
+body.theme-motivated .article {
+  background-color: #FFFFFF;
+  border: 2px solid #D8B4FE;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-motivated .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-motivated .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-motivated .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-motivated .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-motivated .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.2);
+}
+
+body.theme-motivated .vocab-word {
+  text-decoration: underline dashed var(--color-primary);
+  color: var(--color-primary);
+}
+
+body.theme-motivated .vocab-word:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline solid var(--color-primary);
+}
+
+body.theme-motivated .quiz-answer {
+  background-color: #ECFDF5;
+  border-left-color: var(--color-green);
+  color: #065F46;
+}
+
+body.theme-motivated .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #D8B4FE;
+}
+
+body.theme-motivated .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-motivated .highlight-box p {
+  color: var(--color-text-light);
+}
 
