@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KidRead - Nature's Living Lights</title>
+  <title>KidRead - The Discovery of Fire</title>
   <!-- Link to the shared CSS containing font-family: var(--cds-font-sans) -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="theme-mature">
+<body class="theme-fire">
 
   <!-- App Header -->
   <header>
@@ -18,7 +18,7 @@
     <nav>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="page1.html" class="active">Science Adventure</a></li>
+        <li><a href="page1.html" class="active">The Discovery of Fire</a></li>
       </ul>
     </nav>
   </header>
@@ -30,87 +30,164 @@
     <!-- Page Switcher Tabs -->
     <div class="page-nav">
       <button class="page-nav-btn active" id="btn-page-1" onclick="showPage(1)">
-        <span>🌿</span> Page 1: Land Glow
+        <span>🔥</span> Page 1: The First Spark
       </button>
-
+      <button class="page-nav-btn" id="btn-page-2" onclick="showPage(2)">
+        <span>🌍</span> Page 2: A World Changed Forever
+      </button>
     </div>
 
     <!-- Fun Learning Article -->
     <article class="article">
-      <h2>✨ Nature's Living Lights: The Mystery of Bioluminescence</h2>
+      <h2>🔥 The Discovery of Fire: The Spark That Changed Everything</h2>
 
-      <!-- PAGE 1: Land Glow -->
+      <!-- Kid Hero: night cave + animated campfire (pure SVG, no internet needed) -->
+      <div class="kid-hero" role="img" aria-label="Early humans sitting around a warm campfire in a dark cave at night">
+        <div class="kid-hero-inner">
+          <div>
+            <span class="kid-hero-badge">✨ A Year 2 Time-Travel Story</span>
+            <h3 class="kid-hero-title">Brrr… it is dark and cold. Then — WHOOSH! Fire!</h3>
+            <p class="kid-hero-sub">Travel back to the caves. Shiver with early humans, spot lightning, and guard your very first spark.</p>
+            <div class="kid-hero-pills"><span>⚡ Find it</span><span>🔥 Keep it</span><span>🪨 Make it</span></div>
+          </div>
+          <div class="fire-scene">
+            <svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <ellipse class="glow-pulse" cx="180" cy="220" rx="115" ry="28" fill="#FDBA74" opacity="0.6"/>
+              <ellipse cx="180" cy="222" rx="82" ry="18" fill="#FED7AA"/>
+              <rect x="118" y="218" width="68" height="14" rx="7" fill="#92400E" transform="rotate(-18 152 225)"/>
+              <rect x="176" y="218" width="68" height="14" rx="7" fill="#78350F" transform="rotate(18 210 225)"/>
+              <rect x="145" y="228" width="72" height="13" rx="6.5" fill="#A16207"/>
+              <path class="flame" d="M180 90 C165 125 138 140 142 180 C145 205 162 218 180 218 C198 218 215 205 218 180 C222 140 195 125 180 90 Z" fill="#EF4444"/>
+              <path class="flame f2" d="M180 115 C171 136 155 146 157 172 C159 190 169 200 180 200 C191 200 201 190 203 172 C205 146 189 136 180 115 Z" fill="#F97316"/>
+              <path class="flame f3" d="M180 140 C175 154 166 160 167 176 C168 187 174 193 180 193 C186 193 192 187 193 176 C194 160 185 154 180 140 Z" fill="#FDE68A"/>
+              <circle class="spark" cx="160" cy="130" r="4" fill="#FDE68A"/>
+              <circle class="spark s2" cx="185" cy="115" r="3.2" fill="#FED7AA"/>
+              <circle class="spark s3" cx="200" cy="135" r="2.6" fill="#FFF7ED"/>
+              <circle class="spark s4" cx="172" cy="100" r="2.4" fill="#FDE68A"/>
+              <circle class="twinkle" cx="38" cy="36" r="3" fill="white"/>
+              <circle class="twinkle t2" cx="72" cy="22" r="2.2" fill="white"/>
+              <circle class="twinkle t3" cx="310" cy="30" r="3" fill="white"/>
+              <circle class="twinkle t2" cx="330" cy="58" r="2" fill="white"/>
+              <circle class="twinkle" cx="285" cy="18" r="2" fill="#FDE68A"/>
+              <text x="52" y="210" font-size="42">🧑‍🧑‍🧒</text>
+              <text x="258" y="210" font-size="42">🦣</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGE 1: The First Spark -->
       <div id="page-1" class="article-page active">
-        <h3>Glowing in the Dark</h3>
-        <p>Imagine walking through a dense forest at night, and suddenly the ground, tree trunks, and air begin to flicker with soft, green light. This magical display is called <span class="vocab-word" title="Bioluminescence: The chemical production and emission of light by a living organism (like a firefly or deep-sea jellyfish)!">bioluminescence</span>, which is the production and emission of light by a living organism. Unlike household light bulbs that waste energy by releasing heat, this biological light is a form of "cold light," meaning it produces almost no heat at all. This prevents the delicate creatures from overheating while glowing.</p>
+        <div class="flick-guide">
+          <div class="flick-face">🔥</div>
+          <p><strong>Hi! I am Flick the little flame!</strong> Come with me — I will show you where fire hides in nature, how to guard an ember, and how to make a spark. Look for my 🔥 clues!</p>
+        </div>
+
+        <h3>A Cold, Dark World</h3>
+        <p>Long, long ago—millions of years before you were born—there were no stoves, no heaters, and no streetlights. When the sun went down, the whole world became dark and cold. Early humans snuggled together in caves, shivering and listening for scary animals in the night. Then, one amazing day, humans found a miracle: fire!</p>
         
-        <p>How does this natural magic work? It all boils down to a fascinating chemical reaction inside the organism's cells. A unique, light-emitting compound called <span class="vocab-word" title="Luciferin: A specialized chemical compound that glows brightly when it reacts with oxygen inside an organism!">luciferin</span> combines with oxygen. To speed up the reaction, a special helper enzyme called luciferase steps in to guide them. When these molecules meet, they release energy in the form of bright, visible light. Scientists study this efficiency to design better human technology!</p>
+        <p>At first, early humans did not <strong>invent</strong> fire—they <strong>found</strong> it! Fire was already wild in nature. A bolt of lightning could strike a dry tree and set it ablaze. Hot lava from a volcano could set the grass on fire. Wildfires raced across the land. Fire was powerful and a little bit scary. But some very brave humans had a brilliant idea: what if we could catch this fire, keep it, and tame it?</p>
 
-        <p>It isn't just animals that glow on land; some plants and fungi do too! Deep in dark forests, certain mushrooms emit a ghostly green glow known as "foxfire." Scientists discovered that these fungi use bioluminescence to attract nocturnal beetles and flies. As the insects crawl over the glowing mushrooms, sticky fungal spores cling to their bodies, which they then carry to new parts of the forest. It is a brilliant survival mechanism that helps the mushroom reproduce and spread across the forest floor.</p>
+        <div class="nature-grid">
+          <div class="nature-card"><span class="nature-emoji">⚡🌲</span><h4>Lightning Zap!</h4><p>A flash hits a dry tree — WHOOSH!</p></div>
+          <div class="nature-card"><span class="nature-emoji">🌋</span><h4>Volcano Bubble!</h4><p>Hot lava sets grass sizzling.</p></div>
+          <div class="nature-card"><span class="nature-emoji">🔥💨</span><h4>Wildfire Race!</h4><p>Flames run fast across the land.</p></div>
+        </div>
 
-        <p>Another surprising land dweller is the clusterwink snail, which resides along rocky shorelines. When tapped or threatened by a crab, this clever snail flashes its entire shell like a strobe light. By diffusing the light through its translucent shell, it tricks predators into thinking it is much larger than it actually is. Furthermore, certain species of centipedes, when startled, secrete a glowing, toxic slime from their bodies. This serves as an immediate visual alarm that screams "I am dangerous to eat!" to any nearby nocturnal birds.</p>
+        <p>These first fire keepers became the world's very first campfire guards. They fed their fire with dry twigs and logs so it would not go out. They protected it from rain and wind. And when they walked to a new home, they carried glowing embers wrapped in leaves, so a warm fire could be reborn at the other end. This was a giant step for <span class="vocab-word" title="Early humans: People who lived hundreds of thousands of years ago, before writing was invented. They are the very old relatives of people today!">early humans</span>!</p>
 
-        <p>While some mushrooms and insects glow naturally, land plants cannot produce their own light. However, scientists are now genetically engineering house plants using genes from glowing bacteria and fireflies. In the future, we might have glowing trees that line our city streets, replacing traditional electrical streetlights with beautiful, self-sustaining green pathways. This incredible crossover between engineering and nature shows how much we can learn from bioluminescent organisms.</p>
-        
+        <div class="fire-steps">
+          <div class="fire-step"><span class="fire-step-num">1</span><span class="fire-step-icon">🔥</span><h4>Catch it!</h4><p>Grab a flame from nature.</p></div>
+          <div class="fire-step"><span class="fire-step-num">2</span><span class="fire-step-icon">🌿</span><h4>Feed it!</h4><p>Twigs + leaves + gentle blows.</p></div>
+          <div class="fire-step"><span class="fire-step-num">3</span><span class="fire-step-icon">🎒</span><h4>Carry it!</h4><p>Warm embers travel to a new home.</p></div>
+        </div>
+
+        <p>Much later, humans figured out how to make fire all by themselves. They rubbed two sticks together, spinning and spinning until a tiny spark appeared. They also struck two hard, sharp stones called <span class="vocab-word" title="Flint: A very hard rock that shoots bright sparks when it is knocked against another hard stone!">flint</span> and watched the sparks burst into dry grass. Now they could make fire anytime, anywhere!</p>
+
+        <div class="spark-lab">
+          <h4>🙌 Try it: Rub the Sticks!</h4>
+          <p>Tap the button fast, fast, fast — make the heat meter grow until… SPARK!</p>
+          <div id="spark-fire" class="spark-fire-display">🪵</div>
+          <div class="spark-meter"><div id="spark-fill" class="spark-fill"></div></div>
+          <button class="btn-spark" onclick="rubSticks()">Rub Sticks! 🪵🔥</button>
+          <p id="spark-msg" class="spark-msg">Keep rubbing… the wood is getting warm!</p>
+        </div>
+
         <div class="highlight-box">
-          <p><strong>Did you know?</strong> On land, fireflies (or lightning bugs) are the most famous masters of this art. They flash their abdomens in specific rhythmic sequences to communicate, find mates, and warn predators of their bitter taste. Meanwhile, in damp caves, tiny creatures called glowworms spin sticky, glowing silk threads from the ceiling. Hungry insects are attracted to the glowing lines like moths to a flame, getting trapped in the sticky web.</p>
+          <p><strong>Did you know?</strong> The oldest signs of early humans taming fire are more than one million years old! Scientists found ash and burnt bones in places like Wonderwerk Cave in South Africa. Fire gave humans their very first superpower.</p>
         </div>
 
       </div>
 
-      <!-- PAGE 2: Ocean Depths -->
+      <!-- PAGE 2: A World Changed Forever -->
       <div id="page-2" class="article-page">
-        <h3>Deep Ocean Glow</h3>
-        <p>While glowing land creatures are fascinating, the true kingdom of bioluminescence lies far beneath the ocean waves. If you submerge past 3,000 feet, you enter the pitch-black <span class="vocab-word" title="Abyssal Zone: The deepest, coldest, and pitch-black layers of the ocean where sunlight never penetrates!">abyssal zone</span>. In this extreme environment, sunlight never penetrates, water pressure is crushing, and temperatures hover near freezing. Yet, in this seemingly hostile void, bioluminescence is the rule rather than the exception, used by nearly 90% of deep-sea life.</p>
+        <div class="before-after">
+          <div class="ba-card cold"><span class="ba-emoji">🥶🌙</span><h4>Before Fire</h4><p>Dark, cold, scary night. Brrr!</p></div>
+          <div class="ba-card cozy"><span class="ba-emoji">🔥😊</span><h4>After Fire</h4><p>Warm, bright, cozy campfire. Yay!</p></div>
+        </div>
 
-        <p>Marine creatures have evolved ingenious ways to use their light. The terrifying Anglerfish grows a glowing rod on its head containing bioluminescent bacteria, angling it to lure curious prey into its massive jaws. Other creatures, like the loosejaw dragonfish, produce invisible red light—a secret wavelength only they can see—allowing them to illuminate prey in the dark without alerting predators to their own presence.</p>
+        <h3>The Fire Revolution</h3>
+        <p>Fire gave early humans their very first superpower: <strong>warmth</strong>. With a crackling fire, freezing nights and icy winters became safe and cozy. Now families could live in cold places that were once impossible to survive. That is one big reason humans spread out and explored the whole Earth!</p>
 
-        <p>Even the ocean surface can put on a bioluminescent light show. Microscopic organisms called dinoflagellates float near the water's surface in massive groups. When disturbed by crashing waves, swimming fish, or passing boats, they instantly flash a bright neon-blue light. When billions of these tiny creatures light up at once, they create a glowing phenomenon known as "milky seas." Sailors have written about these glowing ocean pathways for centuries, and today, tourists travel worldwide to swim in these glowing bays.</p>
+        <p>Fire also brought <strong>light</strong>. The dark night was no longer scary or empty. Around the glowing flames, grown-ups kept working, kids played and drew pictures, and everyone could see clearly. Wild animals like wolves and big cats stayed far away from the bright, crackling light. Fire was a guard dog that never slept!</p>
 
-        <p>For deep-sea escape tactics, the Vampire Squid is a master. Instead of standard black ink, which is useless in the dark, it shoots out a cloud of glowing, bioluminescent mucus containing thousands of tiny light particles. This glowing fog disorients predators while the squid slips away into the shadows. Similarly, the "green bomber worm" releases tiny, glowing green sacks of fluid that look like mini balloons. These sacks act as decoy targets, glowing brightly for several seconds to distract hungry fish while the worm swims away safely.</p>
+        <p>But the most amazing gift of fire was <strong>cooked food</strong>. Raw meat was tough, chewy, and hard to eat. Cooked meat was soft, delicious, and safe. Cooking killed tiny germs that could make people sick, and best of all, cooked food gave humans much more energy. Scientists think that extra energy helped our brains grow bigger and smarter. That is right—yummy cooked dinners helped humans think better!</p>
 
-        <p>Human explorers also utilize bioluminescence to navigate and study the ocean. Submarines and underwater drones monitor glowing plankton levels, which can trace the movements of large marine mammals or even reveal hidden underwater currents. Researchers also design sensitive light sensors capable of detecting these faint flashes, allowing us to map the deepest crevices of the abyssal zone without disturbing the fragile ecosystems that live there.</p>
+        <p>With fire, humans started inventing amazing new things. They heated wooden spear tips in the flames to make them hard and strong for hunting. They melted rock to discover <span class="vocab-word" title="Metal: A shiny, strong material found inside rocks. By heating special rocks in fire, early humans made metal tools and weapons for the first time!">metal</span>, which could be shaped into sharp knives and strong tools. Thousands of years later, fire-powered machines like ovens, trains, and even rockets were born. And every night, families gathered around the fire to tell stories, sing songs, and teach their children. The fire circle was the very first classroom and living room all in one!</p>
 
-        <p>Deep-sea species also use light for defense. When threatened, some jellyfish flash bright "burglar-alarm" signals to attract even larger predators to eat the creature attacking them. Others use counter-illumination, glowing on their bellies to match the faint light coming from the surface, making them completely invisible from below. It is the ultimate natural invisibility cloak!</p>
+        <div class="power-grid">
+          <div class="power-card warm"><span class="emoji">🧣</span><h4>Warmth</h4><p>Cozy in icy winters!</p></div>
+          <div class="power-card light"><span class="emoji">💡</span><h4>Light</h4><p>Night is bright, not scary!</p></div>
+          <div class="power-card safe"><span class="emoji">🐺🚫</span><h4>Safety</h4><p>Wolves stay far away!</p></div>
+          <div class="power-card food"><span class="emoji">🍖</span><h4>Yummy Food</h4><p>Soft, safe, brain-power meals!</p></div>
+          <div class="power-card tools"><span class="emoji">🔨</span><h4>New Tools</h4><p>Strong spears + shiny metal!</p></div>
+          <div class="power-card stories"><span class="emoji">📚</span><h4>Stories</h4><p>First classroom by fire!</p></div>
+        </div>
+
+        <div class="comic-strip">🔥 Flick's Journey: ⚡ find it <span>➜</span> 🌿 feed it <span>➜</span> 🎒 carry it <span>➜</span> 🪨 make it <span>➜</span> 🍖 cook + tell stories!</div>
+
+        <div class="highlight-box">
+          <p><strong>Remember!</strong> Warmth. Light. Safety. Cooked food. New tools. And friends around the fire. Fire did not just keep humans alive—it started a whole new way of life!</p>
+        </div>
       </div>
 
       <!-- Assessing understanding section -->
       <section class="quiz-section">
-        <h3>🧠 Advanced Comprehension Quiz</h3>
+        <h3>🧠 Comprehension Quiz</h3>
         
         <!-- Question 1 -->
         <div class="quiz-card">
-          <p class="quiz-question">1. What chemical reaction causes bioluminescence to happen?</p>
+          <p class="quiz-question">1. Before humans could make their own fire, where did the first fires come from?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans1', this)">Show Answer 💡</button>
           <div id="ans1" class="quiz-answer">
-            🧪 Bioluminescence happens when a light-emitting compound called <strong>luciferin</strong> reacts with <strong>oxygen</strong>, often accelerated by a helper enzyme called luciferase.
+            ⚡ The very first fires came from nature! Lightning strikes, volcanoes, and wildfires created fire, and brave early humans caught it, fed it with twigs, and carried glowing embers with them to start new fires.
           </div>
         </div>
 
         <!-- Question 2 -->
         <div class="quiz-card">
-          <p class="quiz-question">2. How do glowworms use bioluminescence on land to hunt?</p>
+          <p class="quiz-question">2. What are two ways early humans learned to make fire all by themselves?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans2', this)">Show Answer 💡</button>
           <div id="ans2" class="quiz-answer">
-            🕸️ Glowworms spin sticky, glowing silk threads from cave ceilings. Hungry insects are attracted to the light, fly towards it, and become trapped in the sticky web!
+            🔥 They rubbed two sticks together, spinning until a spark appeared, and they struck two hard flint stones together to shoot sparks into dry grass! Then they carefully fed the tiny spark until a big fire grew.
           </div>
         </div>
 
         <!-- Question 3 -->
         <div class="quiz-card">
-          <p class="quiz-question">3. Explain how the loosejaw dragonfish uses a "secret light wavelength" to its advantage.</p>
+          <p class="quiz-question">3. Why was cooking food so important for humans?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans3', this)">Show Answer 💡</button>
           <div id="ans3" class="quiz-answer">
-            🔴 It produces red light that only dragonfish can see. This lets them illuminate and spot prey in the dark without other fish or predators noticing the light.
+            🍖 Cooked food was softer, tastier, and safer than raw food. Cooking killed germs, and the extra energy from cooked food helped human brains grow bigger and smarter!
           </div>
         </div>
 
         <!-- Question 4 -->
         <div class="quiz-card">
-          <p class="quiz-question">4. What is "counter-illumination" and how does it protect deep-sea creatures?</p>
+          <p class="quiz-question">4. Name three big ways fire changed daily life for early humans.</p>
           <button class="btn-answer" onclick="toggleAnswer('ans4', this)">Show Answer 💡</button>
           <div id="ans4" class="quiz-answer">
-            🛡️ Counter-illumination is when animals glow on their bellies to match the faint light from the ocean surface above. This camouflage makes them invisible to predators looking up from below!
+            🏕️ Fire kept people warm in cold places, lit up the dark night, scared away wild animals, helped cook food, and brought families together to share stories. It gave humans warmth, light, safety, and friendship all in one flame!
           </div>
         </div>
       </section>
@@ -142,6 +219,36 @@
         btn.classList.remove('active');
       });
       document.getElementById('btn-page-' + pageNum).classList.add('active');
+    }
+
+    let heat = 10;
+    let sparkWins = 0;
+    function rubSticks() {
+      const fill = document.getElementById('spark-fill');
+      const fire = document.getElementById('spark-fire');
+      const msg = document.getElementById('spark-msg');
+      if (!fill || !fire || !msg) return;
+      heat += 12 + Math.random() * 10;
+      if (heat >= 100) {
+        heat = 100;
+        sparkWins++;
+        fire.textContent = sparkWins >= 2 ? '🔥🎉' : '🔥';
+        fire.classList.add('big');
+        msg.textContent = sparkWins >= 2
+          ? 'WOW! You are a Fire Maker! 🔥 Can you do it again?'
+          : 'SPARK! You did it! You made fire! 🔥';
+        setTimeout(() => { heat = 10; fire.classList.remove('big'); }, 1800);
+      } else if (heat > 75) {
+        fire.textContent = '💨✨';
+        msg.textContent = 'Almost there… smoke! Rub faster!';
+      } else if (heat > 45) {
+        fire.textContent = '🪵🔥';
+        msg.textContent = 'Ooh, it is getting hot! Keep going!';
+      } else {
+        fire.textContent = '🪵';
+        msg.textContent = 'Keep rubbing… the wood is getting warm!';
+      }
+      fill.style.width = heat + '%';
     }
   </script>
 

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KidRead - The World's Mountains</title>
+  <title>KidRead - Mount Everest & The Roof of the World</title>
+  <!-- Link to the shared CSS containing font-family: var(--cds-font-sans) -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="theme-mountain">
@@ -17,7 +18,7 @@
     <nav>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="page12.html" class="active">Geography Adventure</a></li>
+        <li><a href="page12.html" class="active">Mount Everest</a></li>
       </ul>
     </nav>
   </header>
@@ -28,70 +29,366 @@
 
     <!-- Fun Learning Article -->
     <article class="article">
-      <h2>⛰️ The World's Mountains</h2>
+      <!-- Animated Hero Scene (Pure SVG, 100% Offline) -->
+      <div class="kv-hero kv-hero-mountain">
+        <div class="kv-hero-inner">
+          <div>
+            <div class="kv-badge"><span>⛰️</span> HIMALAYAN EXPEDITION</div>
+            <h3 class="kv-title">Climb the Roof of the World!</h3>
+            <p class="kv-sub">Pack your crampons, ice axes, and oxygen masks! We are trekking to 8,848 meters above sea level to stand on the icy crown of Earth alongside legendary Sherpa guides!</p>
+            <div class="kv-pills">
+              <span>🦣 Meet Yomi the Yak</span>
+              <span>🚩 8,848.86 Meters</span>
+              <span>🧗 Death Zone Challenge</span>
+            </div>
+          </div>
+          <div class="kv-scene">
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated Himalayan peak with snow plumes, Tibetan prayer flags, and mountain climber">
+              <!-- High altitude deep blue sky -->
+              <rect x="0" y="0" width="320" height="150" fill="#1E293B"/>
+              <!-- Jet stream clouds -->
+              <ellipse class="cloud-drift" cx="50" cy="35" rx="45" ry="10" fill="#FFFFFF" opacity="0.6"/>
+              <ellipse class="cloud-drift" style="animation-delay: 5s;" cx="220" cy="25" rx="35" ry="8" fill="#FFFFFF" opacity="0.5"/>
+              <!-- Mount Everest giant summit pyramid -->
+              <polygon points="160,25 60,180 260,180" fill="#475569"/>
+              <polygon points="160,25 100,120 160,180" fill="#64748B"/>
+              <!-- Summit snow cap -->
+              <polygon points="160,25 135,70 185,70" fill="#FFFFFF"/>
+              <!-- Wind snow plume trailing from summit -->
+              <path class="water-shimmer" d="M160 30 Q210 25 280 15 L270 28 Q200 35 160 35 Z" fill="#E2E8F0" opacity="0.75"/>
+              <!-- Surrounding mountain ridges -->
+              <polygon points="10,180 80,105 150,180" fill="#334155"/>
+              <polygon points="80,105 60,135 100,135" fill="#F8FAFC"/>
+              <polygon points="180,180 250,95 320,180" fill="#334155"/>
+              <polygon points="250,95 230,125 270,125" fill="#F8FAFC"/>
+              <!-- Base glacier / Khumbu Icefall -->
+              <rect x="0" y="170" width="320" height="50" fill="#E2E8F0"/>
+              <!-- Prayer flags fluttering -->
+              <path d="M20 170 Q160 160 300 170" stroke="#78716C" stroke-width="1.5" fill="none"/>
+              <polygon points="40,169 52,168 46,178" fill="#3B82F6"/>
+              <polygon points="80,167 92,166 86,176" fill="#FFFFFF"/>
+              <polygon points="120,165 132,164 126,174" fill="#EF4444"/>
+              <polygon points="160,165 172,164 166,174" fill="#10B981"/>
+              <polygon points="200,166 212,167 206,176" fill="#F59E0B"/>
+              <!-- Summit Climber planting flag -->
+              <g class="ice-float" transform="translate(148, 140)">
+                <text x="0" y="24" font-size="28">🧗</text>
+                <text x="24" y="16" font-size="20">🚩</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
 
-      <h3>Earth's Majestic Sky-Scrapers</h3>
-      <p>Mountains cover approximately one-quarter of Earth's land surface and exist on every continent, rising as majestic monuments to the powerful geological forces that shape our planet. These towering formations influence global climate patterns, provide freshwater to billions of people, host unique ecosystems found nowhere else, and inspire human imagination with their beauty and grandeur. From the snow-capped peaks of the Himalayas to the ancient ranges of the Appalachians, mountains tell stories of Earth's dynamic history spanning hundreds of millions of years.</p>
+      <!-- Mascot Guide: Yomi the Sherpa Yak -->
+      <div class="kv-guide kv-guide-mountain">
+        <div class="kv-face">🐂</div>
+        <p><strong>Tashi Delek, brave climber! I am Yomi the Himalayan Yak!</strong> With my thick woolly coat and huge lungs, I can hike carrying climbing gear through freezing blizzards where trucks cannot go! Respect the mountain, step carefully, and let's head for the summit!</p>
+      </div>
 
-      <p>Mountains form through several geological processes. The most common mechanism is <span class="vocab-word" title="Plate Tectonics: The scientific theory that Earth's outer shell is divided into large, moving plates that interact at boundaries, causing earthquakes, volcanoes, and mountain formation!">plate tectonics</span>, where Earth's crustal plates collide, pushing rock upward into massive ranges. The Himalayas, home to Mount Everest, formed when the Indian Plate collided with the Eurasian Plate about 50 million years ago and continue to rise approximately 5 millimeters each year. Volcanic mountains like Mount Fuji in Japan and Mount Kilimanjaro in Tanzania form when magma erupts and builds up over time. Fault-block mountains like the Grand Tetons in Wyoming form when large blocks of crust tilt or rise along fracture lines.</p>
+      <!-- Quick Comparison: Everest vs K2 -->
+      <div class="kv-grid-2">
+        <div class="kv-card" style="border-color: #78716C; background: #F5F5F4;">
+          <span class="kv-emoji">🏔️🚩</span>
+          <h4 style="color: #292524;">Everest (8,848 m)</h4>
+          <p style="color: #44403C;">Highest peak above sea level. Still rising ~4 mm every year as India pushes northward into Asia!</p>
+        </div>
+        <div class="kv-card" style="border-color: #DC2626; background: #FEF2F2;">
+          <span class="kv-emoji">⛰️⚡</span>
+          <h4 style="color: #991B1B;">K2 (8,611 m)</h4>
+          <p style="color: #B91C1C;">Second highest, but considered the wildest, steepest, and hardest climb on Earth — not climbed in winter until 2021!</p>
+        </div>
+      </div>
 
-      <p>Mountains create their own weather systems and significantly influence regional and global climates. As moist air rises over mountains, it cools and releases precipitation on windward slopes, creating lush forests and fertile valleys. The leeward side lies in a <span class="vocab-word" title="Rain Shadow: A dry area on the leeward side of a mountain range where precipitation is blocked by the mountains, creating desert conditions!">rain shadow</span>, receiving little rainfall and often forming deserts. The Himalayas block cold winds from Central Asia, protecting the Indian subcontinent from extreme winter temperatures. Mountains also serve as "water towers," storing freshwater as snow and ice that slowly melts to feed rivers during dry seasons. Over half of humanity depends on mountain water for drinking, agriculture, and hydropower.</p>
+      <h2>⛰️ Mount Everest & The Roof of the World</h2>
 
-      <p>Mountain ecosystems host extraordinary biodiversity adapted to extreme conditions. As elevation increases, temperature drops approximately 6.5 degrees Celsius per 1,000 meters, creating distinct life zones from tropical forests at the base to alpine meadows and permanent ice at the peaks. Mountains cover only about 16 percent of Earth's land surface but contain more than 25 percent of all terrestrial species. Many mountain species exist only on single peaks or ranges, making them vulnerable to extinction. The Andes host over 3,500 species of amphibians found nowhere else, while the Himalayas shelter iconic species including snow leopards, red pandas, and Himalayan tahrs.</p>
+      <h3>🏔️ The Roof of the World</h3>
+      <p>Imagine standing on top of the world, where the sky looks so deep and blue it could be outer space, and the clouds float far below your feet. That is what it feels like on the summit of <span class="vocab-word" title="Mount Everest: Earth's highest mountain above sea level — 8,848.86 meters (29,032 feet) tall. It stands on the border of Nepal and Tibet (China).">Mount Everest</span>, the tallest mountain on our planet. Everest is part of the <span class="vocab-word" title="Himalaya: The mightiest mountain range on Earth, stretching across Asia between India and the Tibetan Plateau. In Sanskrit, 'Himalaya' means 'Home of Snow'!">Himalaya</span>, a chain of giants so huge it can be seen from space.</p>
 
-      <p>Mountains have shaped human civilization throughout history. Their rugged terrain created natural barriers that influenced migration patterns, cultural development, and political boundaries. Mountain passes like the Khyber Pass in Afghanistan and the Brenner Pass in the Alps served as crucial trade routes connecting civilizations. Mountain peoples developed unique cultures adapted to challenging environments, from the Sherpas of Nepal renowned for mountaineering expertise to the Swiss who mastered alpine farming and engineering. Mountains feature prominently in spiritual traditions worldwide, considered sacred by Buddhists, Hindus, Christians, and indigenous peoples across every continent.</p>
+      <p>The Himalaya was born in one of the most amazing slow-motion crashes in history. About 50 million years ago, the giant landmass that is now India drifted north and smashed into Asia. Neither side would give way, so Earth's crust crumpled upward like a rug pushed against a wall — higher, higher, higher! That is why the Himalaya is still rising about 4 to 5 millimeters every year. Today, all fourteen of Earth's <span class="vocab-word" title="Eight-thousanders: The nickname for the 14 mountains on Earth that rise more than 8,000 meters (26,247 ft). Amazingly, every single one is in Asia!">eight-thousanders</span> stand in Asia — and ten of them crowd together in this neighborhood of the Himalaya and its wild neighbor, the Karakoram.</p>
 
-      <p>High-altitude environments present extreme challenges to human physiology. At 5,000 meters elevation, atmospheric pressure is about half that at sea level, meaning each breath contains only half the oxygen. The human body responds by producing more red blood cells, increasing breathing rate, and raising blood pressure. However, prolonged exposure can cause altitude sickness, cerebral edema, or pulmonary edema, potentially fatal conditions requiring immediate descent. Indigenous high-altitude populations like Tibetans and Andeans have evolved genetic adaptations allowing them to thrive at elevations where visitors struggle to breathe.</p>
+      <h3>🚩 Earth's Highest Summit</h3>
+      <p>Mount Everest towers 8,848.86 meters (29,032 feet) above sea level — so high that a passenger jet flying overhead looks like a tiny silver bird. The mountain straddles the border between Nepal and Tibet (China), and it has collected many names over the centuries. In Tibetan it is <em>Chomolungma</em> — the <strong>Goddess Mother of the World</strong>. In Nepali it is <em>Sagarmatha</em> — the <strong>Forehead of the Sky</strong>. Western mapmakers named it after a British surveyor, George Everest, who never even saw the mountain! Since 2020, Nepal and China officially share the same height: 8,848.86 meters.</p>
 
-      <p>Mountains face serious threats from human activities and climate change. Glacial melt, accelerated by global warming, threatens freshwater supplies for billions of people downstream. The Himalayas contain the largest volume of ice outside the polar regions, feeding major rivers including the Ganges, Yangtze, and Mekong. As glaciers retreat, these rivers face increased variability in flow, with more flooding during melt seasons and reduced dry-season flow. Overgrazing, deforestation, and unregulated tourism degrade mountain ecosystems. Mining operations pollute mountain streams with heavy metals and toxins.</p>
+      <p>The summit is like another planet. Winter temperatures can plunge past -60&deg;C (-76&deg;F), and roaring jet-stream winds can blow faster than 160 kilometers per hour. The air is so thin that every breath delivers only about one third of the oxygen you get at sea level. That is why the area above 8,000 meters is called the <span class="vocab-word" title="Death Zone: The region above about 8,000 meters where there is so little oxygen that the human body slowly starts to shut down — no matter how strong or fit you are.">Death Zone</span>.</p>
+      <h3>🗺️ Meet the Giants Around Everest</h3>
+      <p>Everest is the star of the show, but it is never alone. It belongs to a royal family of peaks that all tower above 8,000 meters. Together they form a jagged, snow-covered crown on top of Asia. Take a look at the map below — these are the famous giants that surround Everest and share the same icy rooftop!</p>
 
-      <p>Conservation efforts focus on protecting mountain environments while supporting sustainable development for mountain communities. Protected areas like Yellowstone, the Swiss National Park, and Nepal's Sagarmatha National Park preserve critical habitats. International agreements recognize mountains' global importance, with the United Nations designating December 11 as International Mountain Day. Sustainable tourism, agroforestry, and payment for ecosystem services programs provide economic alternatives to destructive practices. Mountains remind us that protecting high places protects the low places that depend on them.</p>
+      <figure class="map-figure">
+        <svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Himalaya and Karakoram ranges showing Mount Everest and its surrounding peaks above 8,000 meters">
+          <!-- Background bands: plateau (north), range (middle), plains (south) -->
+          <rect x="0" y="0" width="960" height="520" fill="#F5F5F4"/>
+          <rect x="0" y="40" width="960" height="165" fill="#F1EDE4"/>
+          <rect x="0" y="205" width="960" height="100" fill="#E9E1D4"/>
+          <rect x="0" y="305" width="960" height="215" fill="#EAF0E3"/>
+
+          <!-- Map title -->
+          <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="800" fill="#44403C">The High Himalaya &amp; Karakoram</text>
+          <text x="480" y="54" text-anchor="middle" font-size="13" font-weight="600" fill="#78716C">The world's tallest peaks, squeezed into the top of Asia</text>
+
+          <!-- Country outlines (simplified) -->
+          <path d="M40 60 H920 V190 H40 Z" fill="#E4D9B7" opacity="0.4" stroke="#A8A29E" stroke-width="2" stroke-dasharray="8 6"/>
+          <path d="M50 150 H330 V310 H50 Z" fill="#E4D9B7" opacity="0.35" stroke="#A8A29E" stroke-width="2" stroke-dasharray="8 6"/>
+          <path d="M360 290 H760 V470 H360 Z" fill="#D6E4C8" opacity="0.45" stroke="#A8A29E" stroke-width="2" stroke-dasharray="8 6"/>
+          <path d="M780 310 H920 V430 H780 Z" fill="#D6E4C8" opacity="0.4" stroke="#A8A29E" stroke-width="2" stroke-dasharray="8 6"/>
+          <path d="M360 430 H920 V510 H360 Z" fill="#D6E4C8" opacity="0.5" stroke="#A8A29E" stroke-width="2" stroke-dasharray="8 6"/>
+
+          <!-- Country labels -->
+          <text x="480" y="95" text-anchor="middle" font-size="15" font-weight="800" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" fill="#57534E">TIBET (CHINA)</text>
+          <text x="175" y="180" text-anchor="middle" font-size="15" font-weight="800" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" fill="#57534E">PAKISTAN</text>
+          <text x="560" y="345" text-anchor="middle" font-size="16" font-weight="800" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" fill="#4A6738">NEPAL</text>
+          <text x="850" y="345" text-anchor="middle" font-size="14" font-weight="800" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" fill="#4A6738">BHUTAN</text>
+          <text x="640" y="488" text-anchor="middle" font-size="16" font-weight="800" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" fill="#4A6738">INDIA</text>
+
+          <!-- The classic south climbing route to Everest (from Nepal) -->
+          <path d="M697 468 C702 380 705 320 699 228" fill="none" stroke="#EA580C" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+          <text x="672" y="452" font-size="12" font-weight="700" fill="#C2410C">South Col route</text>
+
+          <!-- North / compass rose -->
+          <circle cx="892" cy="88" r="17" fill="#FFFFFF" stroke="#A8A29E" stroke-width="2"/>
+          <path d="M892 73 L898 96 L892 90 L886 96 Z" fill="#DC2626"/>
+          <text x="892" y="78" text-anchor="middle" font-size="9" font-weight="800" fill="#44403C">N</text>
+
+          <!-- Peaks (from west to east), inline shapes + big haloed labels -->
+
+          <!-- Nanga Parbat -->
+          <g transform="translate(120 262)">
+            <path d="M0 -4 L-20 26 L20 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(120 248)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">1</text>
+          </g>
+
+          <!-- K2 -->
+          <g transform="translate(215 205)">
+            <path d="M0 -4 L-22 26 L22 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(215 191)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">2</text>
+          </g>
+
+          <!-- Dhaulagiri -->
+          <g transform="translate(445 280)">
+            <path d="M0 -4 L-20 26 L20 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(445 266)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">3</text>
+          </g>
+
+          <!-- Annapurna I -->
+          <g transform="translate(475 268)">
+            <path d="M0 -4 L-19 26 L19 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-7 10 L7 10 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(475 254)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">4</text>
+          </g>
+
+          <!-- Manaslu -->
+          <g transform="translate(515 258)">
+            <path d="M0 -4 L-19 26 L19 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-7 10 L7 10 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(515 244)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">5</text>
+          </g>
+
+          <!-- Cho Oyu -->
+          <g transform="translate(630 236)">
+            <path d="M0 -4 L-20 26 L20 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(630 222)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">6</text>
+          </g>
+
+          <!-- MOUNT EVEREST -->
+          <g transform="translate(698 228)">
+            <path d="M0 -6 L-26 24 L26 24 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -6 L-9 10 L9 10 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(698 212)">
+            <circle r="13" fill="#DC2626" stroke="#B91C1C" stroke-width="3"/>
+            <text y="5" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">7</text>
+          </g>
+
+          <!-- Lhotse -->
+          <g transform="translate(728 242)">
+            <path d="M0 -4 L-19 26 L19 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-7 10 L7 10 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(728 228)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">8</text>
+          </g>
+
+          <!-- Makalu -->
+          <g transform="translate(792 236)">
+            <path d="M0 -4 L-20 26 L20 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(792 222)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">9</text>
+          </g>
+
+          <!-- Kangchenjunga -->
+          <g transform="translate(866 254)">
+            <path d="M0 -4 L-20 26 L20 26 Z" fill="#9C938A" stroke="#57534E" stroke-width="2"/>
+            <path d="M0 -4 L-8 11 L8 11 Z" fill="#FFFFFF"/>
+          </g>
+          <g transform="translate(866 240)">
+            <circle r="11" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+            <text y="4.5" text-anchor="middle" font-size="13" font-weight="800" fill="#B45309">10</text>
+          </g>
+          <!-- Mini legend -->
+          <rect x="622" y="428" width="326" height="66" rx="14" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+          <circle cx="646" cy="450" r="9" fill="#DC2626" stroke="#B91C1C" stroke-width="3"/>
+          <text x="662" y="454" font-size="13" font-weight="700" fill="#1F2937">Mount Everest — red badge (#7)</text>
+          <circle cx="646" cy="474" r="9" fill="#FFFFFF" stroke="#B45309" stroke-width="3"/>
+          <text x="662" y="478" font-size="13" font-weight="700" fill="#1F2937">Other giants — amber badges</text>
+
+          <!-- Approximate scale bar -->
+          <line x1="60" y1="500" x2="160" y2="500" stroke="#57534E" stroke-width="3"/>
+          <line x1="60" y1="495" x2="60" y2="505" stroke="#57534E" stroke-width="3"/>
+          <line x1="160" y1="495" x2="160" y2="505" stroke="#57534E" stroke-width="3"/>
+          <text x="110" y="517" text-anchor="middle" font-size="11" font-weight="600" fill="#57534E">≈ 250 km (very rough!)</text>
+        </svg>
+        <figcaption class="map-caption">🗺️ Same dream, same roof — the Himalaya &amp; Karakoram hold all of Earth's 8,000&nbsp;m+ peaks except four. Locations are simplified for young explorers.</figcaption>
+      </figure>
+<div class="peak-list">
+        <div class="peak-item peak-everest">
+          <span class="peak-rank">7</span>
+          <span class="peak-name">Mount Everest</span>
+          <span class="peak-h">8,848 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">2</span>
+          <span class="peak-name">K2</span>
+          <span class="peak-h">8,611 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">10</span>
+          <span class="peak-name">Kangchenjunga</span>
+          <span class="peak-h">8,586 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">8</span>
+          <span class="peak-name">Lhotse</span>
+          <span class="peak-h">8,516 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">9</span>
+          <span class="peak-name">Makalu</span>
+          <span class="peak-h">8,485 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">6</span>
+          <span class="peak-name">Cho Oyu</span>
+          <span class="peak-h">8,188 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">3</span>
+          <span class="peak-name">Dhaulagiri</span>
+          <span class="peak-h">8,167 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">5</span>
+          <span class="peak-name">Manaslu</span>
+          <span class="peak-h">8,163 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">1</span>
+          <span class="peak-name">Nanga Parbat</span>
+          <span class="peak-h">8,126 m</span>
+        </div>
+        <div class="peak-item">
+          <span class="peak-rank">4</span>
+          <span class="peak-name">Annapurna I</span>
+          <span class="peak-h">8,091 m</span>
+        </div>
+      </div>
+
+      <p>Right next door — almost touching Everest — stands <strong>Lhotse</strong> (8,516&nbsp;m), the fourth-highest peak on Earth and home to one of the steepest walls of ice and rock anywhere. Just a day's walk to the east, <strong>Makalu</strong> (8,485&nbsp;m) rises as the fifth-highest summit, a near-perfect pyramid of granite. To the northwest, <strong>Cho Oyu</strong> (8,188&nbsp;m) is the sixth-highest and is often called the "gentle" eight-thousander — though no ice-covered giant is ever truly gentle!</p>
+
+      <p>The famous peaks keep coming along the range. Far to the east, where Nepal meets India, looms <strong>Kangchenjunga</strong> (8,586&nbsp;m) — the third-highest mountain on Earth. Far to the west, in the wild Karakoram range on the Pakistan–China border, towers <strong>K2</strong> (8,611&nbsp;m), the world's second-highest peak and one of the hardest climbs of all. Many mountaineers say K2 is even tougher than Everest, with steeper faces, more avalanches, and storms that appear without warning — it was not climbed in winter until 2021! The neighborhood also includes <strong>Dhaulagiri</strong>, <strong>Manaslu</strong>, <strong>Annapurna</strong> (famous as the most dangerous of all), and <strong>Nanga Parbat</strong>, nicknamed the "Killer Mountain."</p>
+
+      <h3>🧗 The Urge to Conquer</h3>
+      <p>For thousands of years, people looked up at these giant peaks and treated them as sacred. Not until the 1920s did climbers seriously dare to set foot on Everest. Danger followed every attempt — blizzards, avalanches, and the terrifying thin air. In 1924, mountaineer George Mallory and his young partner Andrew Irvine disappeared high on the mountain. Did they reach the top? Nobody knows. Mallory's body was only found in 1999, 75 years later! His famous answer to "Why climb Everest?" became legend: <strong>"Because it's there!"</strong></p>
+
+      <p>On <strong>May 29, 1953</strong>, the dream finally came true. <span class="vocab-word" title="Edmund Hillary: A New Zealand beekeeper and mountaineer who, together with Tenzing Norgay, became the first humans confirmed to stand on top of Mount Everest in 1953.">Edmund Hillary</span> of New Zealand and <span class="vocab-word" title="Tenzing Norgay: A Sherpa mountaineer from Nepal who, with Edmund Hillary, made history as the first person confirmed to reach the summit of Mount Everest in 1953.">Tenzing Norgay</span>, a <span class="vocab-word" title="Sherpa: An ethnic group from the Everest region of Nepal, famous worldwide for their extraordinary skill, strength, and courage in the high mountains.">Sherpa</span> from Nepal, stood together on the summit of Everest with the whole world below them. It was a team effort — Sherpas had carried loads, fixed ropes, and guided the way for decades. Without them, Everest would never have been climbed.</p>
+
+      <p>After 1953, the pioneers kept rewriting the record books. In 1975, Junko Tabei of Japan became the first woman to reach the top. In 1978, Reinhold Messner and Peter Habeler climbed Everest with no bottled oxygen — an achievement once thought impossible. Messner even returned to climb it alone in 1980.</p>
+      <p>Today, trying to climb the "Seven Summits" or all fourteen eight-thousanders has become the ultimate mountain-game for extreme adventurers. In spring, hundreds of climbers line up at Base Camp, and on the clearest days more than a hundred people can stand on Everest's summit. But more crowds mean more danger: "traffic jams" in the Death Zone make climbers wait in the cold, burning precious oxygen. And every success leaves behind trash and tents, which is why clean-up expeditions and "leave-no-trace" rules are now a big part of Everest life. The mountain keeps teaching the same humble lesson — you never truly <em>conquer</em> a mountain. You only visit its summit for a few precious minutes, if it lets you.</p>
 
       <div class="highlight-box">
-        <p><strong>Amazing Record:</strong> Mount Everest, at 8,848.86 meters above sea level, is Earth's highest point above sea level. However, measured from base to peak, Mauna Kea in Hawaii is over 10,200 meters tall. Chimborazo in Ecuador, while only 6,263 meters above sea level, is Earth's farthest point from Earth's center due to the planet's equatorial bulge—its peak is over 2 kilometers farther from Earth's core than Everest's summit. These measurements remind us that "highest" depends on how we measure it.</p>
+        <p><strong>Did you know?</strong> Everest is the highest mountain above sea level — but not the tallest from base to top! That honor goes to Mauna Kea in Hawaii, which rises over 10,000 meters from the ocean floor. And Ecuador's Chimborazo is the point farthest from the center of Earth, thanks to the planet's bulging waistline. Plus, Everest is still growing about 4 millimeters every year as India keeps pushing into Asia!</p>
       </div>
 
       <div class="highlight-box">
-        <p><strong>Mountain Climbing History:</strong> Mount Everest was first successfully summited on May 29, 1953, by Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa of Nepal. Their ascent took nearly 40 days, including time for acclimatization to prevent altitude sickness. Modern climbers still face extreme dangers including avalanches, icefalls, and sudden storms. Over 300 people have died attempting to climb Everest, and many bodies remain on the mountain as grim reminders of nature's power. The mountain continues to attract adventurers seeking to test their limits against Earth's most challenging environment.</p>
+        <p><strong>Remember!</strong> Above 8,000 meters — the Death Zone — moving, thinking, and staying warm are incredibly hard. Climbers spend weeks going up and down to get used to the thin air, and Sherpas do some of the most dangerous work by fixing ropes and carrying gear. Respect for the mountain and for the people of the mountains is what makes every climb possible.</p>
+      </div>
+
+      <!-- Interactive Mini-Game: Yomi's Summit Ascent -->
+      <div class="kv-lab kv-lab-mountain">
+        <h4>🧗 Yomi's Himalayan Summit Ascent!</h4>
+        <p>Hike step-by-step from Base Camp through the icy camps to plant the summit flag on Everest!</p>
+        <div id="mountain-display" class="kv-lab-display">🏕️ 🧗 ❄️ ❄️ 🚩</div>
+        <button class="kv-lab-btn" onclick="climbStep()">Climb to Next Camp! 🧗</button>
+        <p id="mountain-msg" class="kv-lab-msg">Tap the button to climb through the camps up toward the 8,848m summit!</p>
+      </div>
+
+      <!-- Mountain Journey Strip -->
+      <div class="kv-strip" style="border-color: #78716C; color: #292524;">
+        ⛰️ Yomi's Trek: 🏕️ Base Camp (5,364m) ➜ 🧊 Khumbu Icefall ➜ ⛺ Camp 4 ➜ ☠️ Death Zone (8,000m+) ➜ 🚩 Summit (8,848m)!
       </div>
 
       <!-- Assessing understanding section -->
       <section class="quiz-section">
         <h3>🧠 Comprehension Quiz</h3>
-        
+
         <!-- Question 1 -->
         <div class="quiz-card">
-          <p class="quiz-question">1. How do mountains form through plate tectonics?</p>
+          <p class="quiz-question">1. How was the Himalaya mountain range — and Mount Everest itself — formed?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans1', this)">Show Answer 💡</button>
           <div id="ans1" class="quiz-answer">
-            🏔️ Mountains form when Earth's crustal plates collide, pushing rock upward. The Himalayas formed when the Indian Plate collided with the Eurasian Plate 50 million years ago and still rise 5mm yearly. Other mountains form through volcanic activity or fault-block formation.
+            ⛰️ About 50 million years ago, the landmass of India crashed into Asia. Earth's crust crumpled upward like a pushed rug, raising the Himalaya. The range is still growing about 4–5 millimeters every year!
           </div>
         </div>
 
         <!-- Question 2 -->
         <div class="quiz-card">
-          <p class="quiz-question">2. What is a rain shadow and how does it affect climate?</p>
+          <p class="quiz-question">2. Who were the first people confirmed to reach the summit of Mount Everest, and when?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans2', this)">Show Answer 💡</button>
           <div id="ans2" class="quiz-answer">
-            🌧️ A rain shadow is a dry area on a mountain's leeward side where mountains block moisture-laden winds. As air rises over mountains, it cools and drops rain on windward slopes, leaving the other side dry. This creates deserts like the Atacama and Great Basin.
+            🏔️ Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa from Nepal, on May 29, 1953. Their climb was a huge team effort supported by many Sherpas.
           </div>
         </div>
 
         <!-- Question 3 -->
         <div class="quiz-card">
-          <p class="quiz-question">3. Why are mountains called "water towers" and why does this matter?</p>
+          <p class="quiz-question">3. Why do many climbers say K2 is harder than Everest, even though it is not as high?</p>
           <button class="btn-answer" onclick="toggleAnswer('ans3', this)">Show Answer 💡</button>
           <div id="ans3" class="quiz-answer">
-            🏔️ Mountains store freshwater as snow and ice that melts slowly to feed rivers year-round. Over half of humanity depends on mountain water for drinking, agriculture, and hydropower. Glacial melt from the Himalayas feeds major rivers serving billions of people in Asia.
+            🗻 K2 has steeper faces, more avalanches, fiercer storms, and almost no chance of rescue. It is so dangerous that no one reached its top in winter until 2021, while Everest is climbed by hundreds of people every year.
           </div>
         </div>
 
         <!-- Question 4 -->
         <div class="quiz-card">
-          <p class="quiz-question">4. How does climate change threaten mountain environments and human populations?</p>
+          <p class="quiz-question">4. What is the "Death Zone," and name two dangers climbers face there.</p>
           <button class="btn-answer" onclick="toggleAnswer('ans4', this)">Show Answer 💡</button>
           <div id="ans4" class="quiz-answer">
-            ⚠️ Glacial melt accelerates due to warming, threatening freshwater supplies for billions. Rivers face more flooding during intense melt seasons and reduced dry-season flow. Mountain ecosystems degrade from overgrazing and tourism. Indigenous mountain communities lose traditional ways of life as environments change faster than adaptation is possible.
+            🧊 The Death Zone is the region above about 8,000 meters, where the air is so thin that the human body slowly shuts down. Dangers include freezing temperatures, winds over 160 km/h, deadly "traffic jams" that waste oxygen, altitude sickness, and frostbite.
           </div>
         </div>
       </section>
@@ -110,6 +407,28 @@
         btn.textContent = 'Hide Answer 🙈';
       }
     }
+    let climbCount = 0;
+    const climbStages = [
+      '🏕️ 🧗 ❄️ ❄️ 🚩',
+      '🏕️ ❄️ 🧗 ❄️ 🚩',
+      '🏕️ ❄️ ❄️ 🧗 🚩',
+      '🏕️ ❄️ ❄️ ⛺ 🧗',
+      '✨ 🏔️ 🚩 🧗 🏆'
+    ];
+    function climbStep() {
+      climbCount++;
+      const display = document.getElementById('mountain-display');
+      const msg = document.getElementById('mountain-msg');
+      if (!display || !msg) return;
+      const stage = climbStages[(climbCount - 1) % climbStages.length];
+      display.textContent = stage;
+      if (climbCount % 5 === 0) {
+        msg.textContent = '🎉 SUMMIT CONQUERED! Standing on top of the world at 8,848.86 meters with Tenzing & Hillary!';
+      } else {
+        msg.textContent = '🧗 Camp ' + (climbCount % 5) + ' reached! Ropes fixed across the Khumbu glacier!';
+      }
+    }
+
   </script>
 
   <!-- App Footer -->

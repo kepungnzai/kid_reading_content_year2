@@ -29,6 +29,83 @@
     <!-- Fun Learning Article -->
     <article class="article">
       <h2>❄️ The Frozen Arctic</h2>
+      <!-- Animated Hero Scene (Pure SVG, 100% Offline) -->
+      <div class="kv-hero kv-hero-arctic">
+        <div class="kv-hero-inner">
+          <div>
+            <div class="kv-badge"><span>❄️</span> POLAR EXPEDITION</div>
+            <h3 class="kv-title">Brrr! Welcome to the Top of the World!</h3>
+            <p class="kv-sub">Put on your warmest mittens! We are sailing across floating sea ice, spotting unicorn whales, and meeting magnificent polar bears under dancing northern lights!</p>
+            <div class="kv-pills">
+              <span>🐻‍❄️ Meet Barnaby</span>
+              <span>🌊 Floating Ocean Ice</span>
+              <span>🦄 Sea Unicorns</span>
+            </div>
+          </div>
+          <div class="kv-scene">
+            <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated Arctic ice landscape with polar bear and narwhal">
+              <!-- Sky gradient with aurora borealis -->
+              <defs>
+                <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#0284C7"/>
+                  <stop offset="50%" stop-color="#38BDF8"/>
+                  <stop offset="100%" stop-color="#A7F3D0"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="320" height="150" fill="#0369A1"/>
+              <!-- Aurora wave ribbon -->
+              <path class="water-shimmer" d="M0 45 Q80 15 160 40 T320 30 L320 75 Q240 60 160 85 T0 70 Z" fill="url(#aurora)" opacity="0.45"/>
+              <!-- Distant icy mountains -->
+              <polygon points="20,150 70,80 120,150" fill="#BAE6FD" opacity="0.7"/>
+              <polygon points="90,150 150,65 210,150" fill="#E0F2FE" opacity="0.9"/>
+              <polygon points="190,150 250,90 310,150" fill="#BAE6FD" opacity="0.6"/>
+              <!-- Ocean water -->
+              <rect x="0" y="145" width="320" height="75" fill="#0C4A6E"/>
+              <path class="water-shimmer" d="M0 155 Q80 150 160 155 T320 155" stroke="#38BDF8" stroke-width="2" fill="none"/>
+              <path class="water-shimmer" d="M0 180 Q80 175 160 180 T320 180" stroke="#0284C7" stroke-width="2" fill="none"/>
+              <!-- Floating ice floe with polar bear -->
+              <g class="ice-float">
+                <ellipse cx="100" cy="165" rx="65" ry="16" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="2"/>
+                <ellipse cx="100" cy="163" rx="55" ry="12" fill="#FFFFFF"/>
+                <!-- Polar bear emoji character -->
+                <text x="82" y="152" font-size="34">🐻‍❄️</text>
+                <text x="124" y="150" font-size="20">🐾</text>
+              </g>
+              <!-- Narwhal swimming in open water -->
+              <g class="ice-float" style="animation-delay: 1.5s;">
+                <ellipse cx="240" cy="175" rx="45" ry="12" fill="#E0F2FE" stroke="#7DD3FC" stroke-width="1.5"/>
+                <text x="220" y="168" font-size="28">🐋</text>
+                <text x="255" y="155" font-size="18">✨</text>
+              </g>
+              <!-- Snowflakes in air -->
+              <text class="sparkle-pulse" x="40" y="45" font-size="14" fill="#FFFFFF">❄️</text>
+              <text class="sparkle-pulse" style="animation-delay: 0.8s;" x="270" y="55" font-size="16" fill="#FFFFFF">❄️</text>
+              <text class="sparkle-pulse" style="animation-delay: 1.4s;" x="160" y="30" font-size="18" fill="#FFFFFF">⭐</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mascot Guide: Barnaby the Polar Bear -->
+      <div class="kv-guide kv-guide-arctic">
+        <div class="kv-face">🐻‍❄️</div>
+        <p><strong>Hi explorer! I am Barnaby the Polar Bear!</strong> My fur looks white as snow, but secret fact: my skin underneath is pitch black to soak in warm sunlight! Bundle up and follow my giant paws across the ice!</p>
+      </div>
+
+      <!-- Quick Comparison: Arctic vs. Antarctica -->
+      <div class="kv-grid-2">
+        <div class="kv-card" style="border-color: #38BDF8; background: #F0F9FF;">
+          <span class="kv-emoji">🐻‍❄️🌊</span>
+          <h4 style="color: #0369A1;">The Arctic (Top)</h4>
+          <p style="color: #075985;">A frozen OCEAN covered in floating sea ice! Home to polar bears, narwhals, and indigenous Inuit peoples!</p>
+        </div>
+        <div class="kv-card" style="border-color: #A855F7; background: #FAF5FF;">
+          <span class="kv-emoji">🐧🏔️</span>
+          <h4 style="color: #6B21A8;">Antarctica (Bottom)</h4>
+          <p style="color: #581C87;">A frozen CONTINENT covered in giant land ice! Home to penguins and scientists — no polar bears here!</p>
+        </div>
+      </div>
+
 
       <h3>Earth's Icy Wilderness</h3>
       <p>At the very top of our planet lies the Arctic, a vast frozen ocean surrounded by the northern lands of Alaska, Canada, Greenland, Norway, and Russia. Unlike Antarctica, which is a continent covered in ice, the Arctic is an ocean covered in sea ice that floats on top of the water. This region experiences extreme conditions: winter temperatures can plummet below minus 40 degrees Celsius, and the Sun disappears for months at a time during the polar night. Yet life thrives here in remarkable ways.</p>
@@ -36,6 +113,25 @@
       <p>The Arctic ecosystem depends on <span class="vocab-word" title="Sea Ice: Frozen ocean water that forms when seawater freezes, creating a critical habitat for Arctic wildlife and influencing global climate patterns!">sea ice</span>, which forms when ocean water freezes during the long, dark winter. This ice is not just frozen freshwater—it contains tiny channels filled with salty brine that support microscopic algae and bacteria. These tiny organisms form the base of the entire Arctic food web. When spring arrives and sunlight returns, the ice algae bloom, feeding zooplankton, which in turn feed fish, seals, whales, and polar bears. The timing of sea ice formation and melting has profound effects on every creature in the Arctic.</p>
 
       <p>The most iconic Arctic resident is the <span class="vocab-word" title="Polar Bear: The largest land carnivore on Earth, adapted to Arctic life with thick fur, blubber, and specialized hunting skills for catching seals on sea ice!">polar bear</span>, a magnificent predator perfectly adapted to life on the ice. Polar bears have black skin beneath their white fur, which helps absorb heat from the Sun. Their thick layer of blubber, up to 10 centimeters thick, provides insulation and energy storage. Large, wide paws act like snowshoes for walking on soft snow and function as powerful paddles for swimming. Polar bears can detect seals nearly a kilometer away and smell them through nearly a meter of snow. They are excellent swimmers, capable of traveling hundreds of kilometers in open water.</p>
+      <!-- Visual Adaptation Cards: Polar Bear Superpowers -->
+      <div class="kv-grid-3">
+        <div class="kv-card" style="border-color: #38BDF8;">
+          <span class="kv-emoji">🖤🧥</span>
+          <h4 style="color: #0369A1;">Black Skin</h4>
+          <p style="color: #075985;">Hides under clear fur to trap heat like a solar panel!</p>
+        </div>
+        <div class="kv-card" style="border-color: #38BDF8;">
+          <span class="kv-emoji">🐾🛶</span>
+          <h4 style="color: #0369A1;">Snowshoe Paws</h4>
+          <p style="color: #075985;">Giant 30 cm paws stop sinking in snow and paddle through waves!</p>
+        </div>
+        <div class="kv-card" style="border-color: #38BDF8;">
+          <span class="kv-emoji">👃❄️</span>
+          <h4 style="color: #0369A1;">Super Sniffer</h4>
+          <p style="color: #075985;">Can smell a seal resting nearly 1 km away under a meter of snow!</p>
+        </div>
+      </div>
+
 
       <p>Arctic waters teem with marine life. Bowhead whales, which can live over 200 years, use their massive heads to break through sea ice to breathe. Narwhals, known as the "unicorns of the sea" for their long, spiral tusks, dive to depths over 1,500 meters to hunt fish. Walruses use their long tusks to pull themselves onto ice and dig for clams in the ocean floor. Millions of seabirds, including puffins, guillemots, and kittiwakes, nest on Arctic cliffs during the brief summer, feeding on the abundant fish and plankton.</p>
 
@@ -53,6 +149,20 @@
 
       <div class="highlight-box">
         <p><strong>Arctic Exploration:</strong> For centuries, explorers risked their lives seeking a Northwest Passage—a sea route through the Arctic connecting the Atlantic and Pacific Oceans. Many expeditions ended in disaster, with ships trapped in ice and crews perishing from cold and starvation. Today, melting sea ice has made this route increasingly navigable, raising hopes for shorter shipping routes but also concerns about environmental impact and conflicts over Arctic resources. The Arctic continues to capture human imagination as a frontier of exploration and scientific discovery.</p>
+      </div>
+
+      <!-- Interactive Mini-Game: Seal & Ice Floe Hop -->
+      <div class="kv-lab kv-lab-arctic">
+        <h4>🧊 Barnaby's Ice Floe Hop!</h4>
+        <p>Help Barnaby hop across floating ice sheets to safely find his seal friend!</p>
+        <div id="arctic-display" class="kv-lab-display">🌊🌊🐻‍❄️🌊🌊</div>
+        <button class="kv-lab-btn" onclick="hopIce()">Hop to Next Ice Floe! 🐾</button>
+        <p id="arctic-msg" class="kv-lab-msg">Tap the button to leap across the cold Arctic ocean!</p>
+      </div>
+
+      <!-- Arctic Trail Strip -->
+      <div class="kv-strip" style="border-color: #38BDF8; color: #0369A1;">
+        ❄️ Barnaby's Trail: 🌊 Sea Ice ➜ 🐻‍❄️ Polar Bear ➜ 🦄 Narwhal ➜ 🥶 -40°C Blizzard ➜ 🌌 Aurora Magic!
       </div>
 
       <!-- Assessing understanding section -->
@@ -110,6 +220,28 @@
         btn.textContent = 'Hide Answer 🙈';
       }
     }
+    let iceHopCount = 0;
+    const iceHopPatterns = [
+      '🌊🐻‍❄️🌊🌊🌊',
+      '🌊🌊🐻‍❄️🌊🌊',
+      '🌊🌊🌊🐻‍❄️🌊',
+      '🌊🌊🌊🌊🐻‍❄️',
+      '🌊🌊🌊🐻‍❄️🦭'
+    ];
+    function hopIce() {
+      iceHopCount++;
+      const display = document.getElementById('arctic-display');
+      const msg = document.getElementById('arctic-msg');
+      if (!display || !msg) return;
+      const pattern = iceHopPatterns[(iceHopCount - 1) % iceHopPatterns.length];
+      display.textContent = pattern;
+      if (iceHopCount % 5 === 0) {
+        msg.textContent = '🎉 HURRAY! Barnaby reached his seal friend across the sea ice!';
+      } else {
+        msg.textContent = '🐾 SPLASH & HOP! Ice jump ' + iceHopCount + '! Keep moving across the Arctic!';
+      }
+    }
+
   </script>
 
   <!-- App Footer -->
