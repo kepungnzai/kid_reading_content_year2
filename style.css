@@ -3089,3 +3089,84 @@ body.theme-fire .highlight-box p {
 .kv-hero-river .kv-pills span { border-color: #38BDF8; color: #0284C7; }
 
 
+/* Wonderland Theme (Alice - for page25) */
+body.theme-wonderland {
+  --color-primary: #A855F7;       /* Violet */
+  --color-primary-light: #F3E8FF; /* Soft violet tint */
+  --color-primary-dark: #6B21A8;  /* Dark violet */
+  --color-bg: #FFFFFF;
+  --color-bg-tone: #FAF5FF;
+  --color-bg-card: #FFFFFF;
+  --color-border: #E9D5FF;
+  --color-text: #4C1D95;
+  --color-text-light: #7E22CE;
+  --color-green: #10B981;
+  --color-orange: #F97316;
+  --color-yellow: #FBBF24;
+}
+
+body.theme-wonderland header,
+body.theme-wonderland footer {
+  background-color: #FFFFFF;
+  border-color: #E9D5FF;
+}
+
+body.theme-wonderland .article {
+  background-color: #FFFFFF;
+  border: 2px solid #E9D5FF;
+  box-shadow: var(--shadow-lg);
+}
+
+body.theme-wonderland .nav-links a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+body.theme-wonderland .nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+body.theme-wonderland .logo-img {
+  border-color: var(--color-primary-light);
+  background-color: #FFFFFF;
+}
+
+body.theme-wonderland .page-nav-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+body.theme-wonderland .page-nav-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.2);
+}
+
+body.theme-wonderland .vocab-word {
+  color: var(--color-primary);
+}
+
+body.theme-wonderland .quiz-answer {
+  background-color: #F5F3FF;
+  border-left-color: var(--color-primary);
+  color: #4C1D95;
+}
+
+body.theme-wonderland .quiz-card {
+  background-color: #FFFFFF;
+  border: 2px solid #E9D5FF;
+}
+
+body.theme-wonderland .highlight-box {
+  background-color: var(--color-primary-light);
+  border-left: 6px solid var(--color-primary);
+  box-shadow: none;
+}
+
+body.theme-wonderland .highlight-box p {
+  color: var(--color-text-light);
+}
